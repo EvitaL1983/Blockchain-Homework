@@ -1,0 +1,37 @@
+=============== Apr 29, 2021 (EDT) ===============
+16:55:42.361233 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:55:42.366258 db@open opening
+16:55:42.367247 version@stat F·[] S·0B[] Sc·[]
+16:55:42.370239 db@janitor F·2 G·0
+16:55:42.370239 db@open done T·3.9815ms
+16:55:42.384814 db@close closing
+16:55:42.385362 db@close done T·239.8µs
+=============== Apr 29, 2021 (EDT) ===============
+17:13:34.125950 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:13:34.125950 version@stat F·[] S·0B[] Sc·[]
+17:13:34.126950 db@open opening
+17:13:34.126950 journal@recovery F·1
+17:13:34.133466 journal@recovery recovering @1
+17:13:34.136964 memdb@flush created L0@2 N·623 S·50KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v364"
+17:13:34.140929 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+17:13:34.147933 db@janitor F·3 G·0
+17:13:34.147933 db@open done T·20.9838ms
+17:13:34.193664 table@compaction range L-1 "a":"b"
+17:13:34.193664 table@compaction L0·1 -> L1·0 S·50KiB Q·629
+17:13:34.208508 table@build created L1@5 N·623 S·50KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v364"
+17:13:34.208508 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+17:13:34.209550 table@compaction committed F~ S~ Ke·0 D·0 T·15.8868ms
+17:13:34.218021 memdb@flush N·7 S·416B
+17:13:34.219520 memdb@flush created L0@7 N·7 S·558B "Dat..ion,v625":"unc..own,v631"
+17:13:34.220020 version@stat F·[1 1] S·51KiB[558B 50KiB] Sc·[0.25 0.00]
+17:13:34.221022 memdb@flush committed F·1 T·3.001ms
+17:13:34.221521 journal@remove removed @3
+17:13:34.221521 table@compaction range L-1 "o":"p"
+17:13:34.221521 table@compaction L0·1 -> L1·1 S·51KiB Q·631
+17:13:34.225022 table@build created L1@8 N·628 S·51KiB "\x02d\xfc..\x19Ba,v431":"\xfe\x88\xcf..H\xef\xcc,v364"
+17:13:34.225022 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+17:13:34.227022 table@compaction committed F-1 S-26B Ke·0 D·2 T·5.5008ms
+17:13:34.227521 table@remove removed @7
+17:13:34.228021 table@remove removed @5
+22:09:04.214749 db@close closing
+22:09:04.215263 db@close done T·514.1µs
